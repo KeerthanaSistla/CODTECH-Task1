@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #cff8e5;
+    text-align: center;
+    color: #03341f;
+}
+
+header{
+    background-color: #3ac584;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+    color: #f1fff9;
+    font-size: 4.5vmin;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+    width: 100%;
+    font-weight: 550;
+}
+
+main{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+}
+
+
+button{
+    background-color: #3ac584;
+    color: #f1fff9;
+    font-size: 2.5vmin;
+    text-shadow: 0 0 0.5vmin #03341f;
+    border: 1px solid #03341f;
+    border-radius: 8px;
+    padding: 1vmin;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#start{
+ font-size: 5vmin;
+}
+
+#container{
+    display: none;
+    background-color: #deffef;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #03341f;
+    width: 400px;
+}
+
+#questions h2{
+    margin-bottom: 20px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
+
+.option:hover{
+    background-color: #cff8e5;
+    color: #03341f;
+    text-shadow: 0 0 0 #03341f;
+}
+
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    text-align: center;
+    border: 1px solid #03341f;
+}
+
+th, td{
+    border: 1px solid #03341f;
+    padding: 5px;
+}
+
+#quiz-end h2{
+    margin-bottom: 20px;
+}
+
+#quiz-end button{
+    margin: 10px 2px 10px 2px;
+}
+
+#quiz-end button:hover{
+    background-color: #cff8e5;
+    color: #03341f;
+    text-shadow: 0 0 0 #03341f;
+}
+
+hr{
+    display: block;
+    width: 100%;
+    border: 0.5px solid #03341f;
+    margin: 0.25px;
+}
+  
+footer{
+    position: absolute;
+    text-align: left;
+    bottom: 1px;
+    width: 100%;
+}
+  
+@media (max-height: 600px) {
+    footer{
+        text-align: left;
+        position: relative;
+        bottom: 1px;
+    }
+}
+  
+a{
+    color: #03341f;
+    text-decoration: none;
+    font-weight: 500;
+}
